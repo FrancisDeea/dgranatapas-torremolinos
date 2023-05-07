@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+.container {
+    @include flexbox-row;
+    column-gap: 0;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: var(--light-color);
+}
+
+.icon {
+    color: red;
+}

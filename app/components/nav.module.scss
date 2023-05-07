@@ -1,0 +1,18 @@
+@import '../styles/variables';
+
+.container {
+    height: 100%;
+}
+
+.container ul {
+    @include flexbox-column;
+    row-gap: 20px;
+    height: 100%;
+
+    list-style: none;
+
+    .link {
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+}

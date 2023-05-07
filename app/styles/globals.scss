@@ -1,0 +1,57 @@
+@import './variables';
+
+:root {
+  --background-color: #F8F9FA;
+  --light-color: #E9ECEF;
+  --medium-color: #DEE2E6;
+  --dark-color: #CED4DA;
+  --text: rgb(22, 22, 22);
+  --link : #16302B;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 700px) minmax(2rem, 1fr);
+
+  background-color: var(--background-color);
+}
+
+seccion.page_container {
+  grid-column: 2 / 3;
+  min-height: calc(100vh - 100px); 
+
+  @include flexbox-column;
+  row-gap: 20px;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
