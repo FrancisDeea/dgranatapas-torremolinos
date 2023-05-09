@@ -18,14 +18,16 @@ export default function Plate({ name, price, description, img, alt, allergens })
                 />
             </div>
             <div className={styles.content_container}>
-                <h3 className={styles.title}>{name}</h3>
+                <h3 className={styles.title}>{name} - {price}</h3>
                 <p className={styles.description}>{description}</p>
                 <ul className={styles.allergens_container}>
                     {
-                        allergens.map(allergen => {
-                            const result = findAllergens(allergen);
-                            return <li><Image title={allergen} src={result.src} width={35} height={35} className={styles.allergen}/></li>
-                        })
+                        allergens === null
+                            ? null
+                            : allergens.map(allergen => {
+                                const result = findAllergens(allergen);
+                                return <li><Image title={allergen} src={result.src} width={35} height={35} className={styles.allergen}/></li>
+                            })
                     }
                 </ul>
             </div>
