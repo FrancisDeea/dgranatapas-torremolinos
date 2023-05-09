@@ -1,8 +1,10 @@
 import styles from './plate.module.scss';
 
+import {findAllergens} from '../data/findAllergens';
+
 import Image from 'next/image';
 
-export default function Plate() {
+export default function Plate({ name, price, description, img, alt, allergens }) {
 
     return (
         <article className={styles.container}>
@@ -16,11 +18,16 @@ export default function Plate() {
                 />
             </div>
             <div className={styles.content_container}>
-                <h3 className={styles.title}>ensalada</h3>
-                <p className={styles.description}>Esto es una ensalada con lechuga y tomate.</p>
-                <div className={styles.allergens_container}>
-                    gluten
-                </div>
+                <h3 className={styles.title}>{name}</h3>
+                <p className={styles.description}>{description}</p>
+                <ul className={styles.allergens_container}>
+                    {
+                        allergens.map(allergen => {
+                            const result = findAllergens(allergen);
+                            return <li><Image title={allergen} src={result.src} width={35} height={35} className={styles.allergen}/></li>
+                        })
+                    }
+                </ul>
             </div>
         </article>
     )

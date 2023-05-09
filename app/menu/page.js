@@ -12,9 +12,7 @@ export default function Menu() {
                 <meta name="keywords" content="" />
             </Head>
             <seccion className="page_container">
-                <Plate
 
-                />
             </seccion>
         </>
     )
