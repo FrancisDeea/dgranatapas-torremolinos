@@ -39,7 +39,7 @@ p {
 main {
   display: grid;
   place-items: center;
-  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 700px) minmax(2rem, 1fr);
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 900px) minmax(2rem, 1fr);
 
   background-color: var(--background-color);
 }
@@ -50,6 +50,8 @@ seccion.page_container {
 
   @include flexbox-column;
   row-gap: 20px;
+
+  width: 100%;
 }
 
 a {

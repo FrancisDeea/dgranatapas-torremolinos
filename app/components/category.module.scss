@@ -1,0 +1,42 @@
+@import '../styles/variables';
+
+.container {
+    @include flexbox-row;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    min-height: 100px;
+    aspect-ratio: 2/1;
+    flex: 1 0 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.img {
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: 1;
+    transition: all 3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2) translate(0, -10px);
+    }
+}
+
+.title {
+    color: white;
+    z-index: 2;
+}
+
+
+@media (max-width: 560px) {
+    .container {
+        flex-basis: 45%;
+        aspect-ratio: 1/1;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+}
