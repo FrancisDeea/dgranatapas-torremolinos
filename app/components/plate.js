@@ -11,8 +11,8 @@ export default function Plate({ name, price, description, img, alt, allergens })
             <div className={styles.img_container}>
                 <Image
                     className={styles.img}
-                    src="/assets/platos/cazon-adobo-frito.webp"
-                    alt=""
+                    src={img}
+                    alt={alt}
                     fill
                     sizes=""
                 />

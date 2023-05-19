@@ -4,7 +4,7 @@ export const plates = {
             name: "Beicon",
             price: "8.50",
             description: "Mix de lechugas, medallón de beicon y queso de cabra, frutos secos y salsa de miel y mostaza.",
-            img: "",
+            img: "/assets/platos/ensalada-bacon-queso-cabra.webp",
             alt: "ensalada de bacon y queso de cabra",
             allergens: ["cascara", "mostaza", "sesamo", "lacteo", "sulfito"]
         },
@@ -13,7 +13,7 @@ export const plates = {
             name: "Cesar",
             price: "8.50",
             description: "Mix de lechugas, pollo, picatostes y escamas de parmesano.",
-            img: "",
+            img: "/assets/platos/ensalada-cesar.webp",
             alt: "ensalada cesar",
             allergens: ["gluten", "lacteo", "sulfito"]
         }
@@ -24,7 +24,7 @@ export const plates = {
             name: "Twister de langostinos",
             price: "8",
             description: "6 Uds. con salsa sweet chili.",
-            img: "",
+            img: "/assets/platos/twistter-langostinos-crujientes.webp",
             alt: "twister de langostinos",
             allergens: ["soja", "crustaceo", "pescado", "gluten"]
         },
@@ -33,7 +33,7 @@ export const plates = {
             name: "Lagrimitas de pollo",
             price: "8.50",
             description: "Con patatas fritas y salsa gaucha argentina.",
-            img: "",
+            img: "/assets/platos/lagrimas-pechuga-pollo.webp",
             alt: "lagrimitas de pollo",
             allergens: ["gluten", "huevo", "mostaza"]
         },
@@ -42,7 +42,7 @@ export const plates = {
             name: "Bravas a la Camboria",
             price: "5.50",
             description: "Papas fritas con salsa brava al estilo de Madrid.",
-            img: "",
+            img: "/assets/platos/patatas-bravas-caseras.webp",
             alt: "papas bravas madrileñas",
             allergens: ["sesamo"]
         },
@@ -51,7 +51,7 @@ export const plates = {
             name: "Roscas",
             price: "7.50",
             description: "De jamón serrano ó de lomo, con tomate y queso.",
-            img: "",
+            img: "/assets/platos/rosca-jamon-lomo-queso.webp",
             alt: "rosca de jamon o lomo de cerdo",
             allergens: ["gluten", "lacteo"]
         },
@@ -60,7 +60,7 @@ export const plates = {
             name: "Camenbert frito",
             price: "8",
             description: "3 uds. con coulis de arándanos.",
-            img: "",
+            img: "/assets/platos/queso-frito-camembert.webp",
             alt: "queso frito camembert",
             allergens: ["gluten", "lacteo", "huevo"]
         },
@@ -69,7 +69,7 @@ export const plates = {
             name: "Risotto",
             price: "9.50",
             description: "De champiñones, solomillo y parmesano.",
-            img: "",
+            img: "/assets/platos/risotto-solomillo-setas.webp",
             alt: "risotto de solomillo",
             allergens: ["lacteo", "soja"]
         },
@@ -78,7 +78,7 @@ export const plates = {
             name: "Cazuela de papas gratinadas",
             price: "7.50",
             description: "Papas fritas con mayonesa, beicon y 3 quesos gratinados.",
-            img: "",
+            img: "/assets/platos/cazuela-patatas-gratinadas-bacon.webp",
             alt: "cazuela de papas gratinadas con bacon",
             allergens: ["lacteo", "huevo"]
         },
@@ -89,7 +89,7 @@ export const plates = {
             name: "Croquetas de la casa",
             price: "9 / 4.50",
             description: "8 / 4 uds. de puchero, rabo de toro ó pollo al curry.",
-            img: "",
+            img: "/assets/platos/croquetas-puchero-rabo-toro-curry.webp",
             alt: "croquetas caseras de la casa",
             allergens: ["lacteo", "huevo", "gluten", "soja"]
         },
@@ -98,7 +98,7 @@ export const plates = {
             name: "Flamenquín Cordobés",
             price: "9",
             description: "Relleno de lomo, jamón serrano, queso y pimiento.",
-            img: "",
+            img: "/assets/platos/flamenquin-cordobes-casero.webp",
             alt: "flamenquin cordobes casero",
             allergens: ["lacteo", "huevo", "gluten"]
         },
@@ -107,7 +107,7 @@ export const plates = {
             name: "Pollo teriyaki",
             price: "10",
             description: "Con arroz y salsa sweet chili.",
-            img: "",
+            img: "/assets/platos/pollo-teriyaki-arroz.webp",
             alt: "pollo teriyaki con arroz",
             allergens: ["lacteo", "huevo", "gluten"]
         },
@@ -116,7 +116,7 @@ export const plates = {
             name: "Cazuela de huevos rotos y virutas de foie",
             price: "9",
             description: "Papas panaderas con virutas de jamón serrano y foie.",
-            img: "",
+            img: "/assets/platos/cazuela-patatas-gratinadas-bacon.webp",
             alt: "huevos rotos con jamon y foie",
             allergens: ["lacteo", "huevo"]
         },
@@ -125,7 +125,7 @@ export const plates = {
             name: "Pan Bao de solomillo ibérico",
             price: "10",
             description: "Con mayokimchi (toque agripicante).",
-            img: "",
+            img: "/assets/platos/pan-bao-solomillo.webp",
             alt: "pan bao de solomillo",
             allergens: ["gluten", "huevo"]
         },
@@ -137,7 +137,7 @@ export const plates = {
                 1: "Queso de cabra, cebolla caramelizada y miel de caña.",
                 2: "Gratinado de alioli, parmesano y tres quesos."
             },
-            img: "",
+            img: "/assets/platos/tosta-pan-ajo-queso-cabra.webp",
             alt: "tosta de pan de ajo o queso de cabra",
             allergens: ["gluten", "lacteo"]
         },
@@ -146,7 +146,7 @@ export const plates = {
             name: "Wok de noodles Udon",
             price: "10",
             description: "Pídelos de pollo, gambas ó mixto (+1€)",
-            img: "",
+            img: "/assets/platos/wok-noodles-udon-pollo-gambas.webp",
             alt: "wok de noodles udon con pollo y gambas",
             allergens: ["gluten", "cascara", "sesamo", "soja", "crustaceo", "pescado"]
         }
@@ -157,7 +157,7 @@ export const plates = {
             name: "Cazón en adobo frito",
             price: "8.50",
             description: null,
-            img: "",
+            img: "/assets/platos/cazon-adobo-frito.webp",
             alt: "cazon frito en adobo",
             allergens: ["gluten", "pescado", "sulfito"]
         },
@@ -166,7 +166,7 @@ export const plates = {
             name: "Almejas a la marinera",
             price: "9.50",
             description: null,
-            img: "",
+            img: "/assets/platos/almejas-marinera.webp",
             alt: "almejas a la marinera",
             allergens: ["crustaceo", "sulfito"]
         },
@@ -175,7 +175,7 @@ export const plates = {
             name: "Pata de pulto",
             price: "14",
             description: "A la plancha, sobre cremoso de romesco y alioli de pimentón de La Vera.",
-            img: "",
+            img: "/assets/platos/pata-pulpo-salsa-romesco.webp",
             alt: "pata de pulpo a la plancha con romesco",
             allergens: ["cascara", "sesamo", "sulfito", "pescado"]
         }
@@ -186,7 +186,7 @@ export const plates = {
             name: "Pluma ibérica BT",
             price: "14",
             description: "Cocinada a baja temperatura, con jamón serrano y aceite trufado.",
-            img: "",
+            img: "/assets/platos/pluma-iberica-baja-temperatura.webp",
             alt: "pluma iberica a baja temperatura con patatas",
             allergens: null
         },
@@ -195,7 +195,7 @@ export const plates = {
             name: "Costillas de cerdo BBQ",
             price: "14",
             description: "Cocinadas a baja temperatura con salsa bbq y papas.",
-            img: "",
+            img: "/assets/platos/costillas-cerdo-barbacoa.webp",
             alt: "costillas de cerdo barbacoa",
             allergens: ["sesamo"]
         },
@@ -204,7 +204,7 @@ export const plates = {
             name: "Milhojas",
             price: "9",
             description: "Con queso de cabra, jamón serrano y confitura de mango.",
-            img: "",
+            img: "/assets/platos/milhojas-queso-cabra-mango-jamon.webp",
             alt: "milhojas de queso cabra, mango y jamon",
             allergens: ["gluten", "lacteo"]
         },
@@ -213,7 +213,7 @@ export const plates = {
             name: "Sacos de calabacín",
             price: "8",
             description: "Rellenos de bechamel de puerros y boletus.",
-            img: "",
+            img: "/assets/platos/sacos-calabacin-bechamel-puerros.webp",
             alt: "sacos de calabacin rellenos",
             allergens: ["huevo", "lacteo"]
         },
@@ -222,7 +222,7 @@ export const plates = {
             name: "Churrasco de pollo",
             price: "9",
             description: "Con chutney de mango y quinoa con verduras.",
-            img: "",
+            img: "/assets/platos/churrasco-pollo-timbal-quinoa.webp",
             alt: "churrasco de pollo con quinoa",
             allergens: null
         }
@@ -233,8 +233,8 @@ export const plates = {
             name: "Ternera y buey (200gr)",
             price: "10",
             description: "Queso de cabra, cebolla caramelizada, acompañada de papas.",
-            img: "",
-            alt: "pata de pulpo a la plancha con romesco",
+            img: "/assets/platos/hamburguesa-ternera-buey.webp",
+            alt: "Hamburguesa de ternera y buey",
             allergens: ["gluten", "sesamo", "lacteo"]
         },
 
@@ -242,8 +242,8 @@ export const plates = {
             name: "Angus (200gr)",
             price: "10",
             description: "Doble de beicon, queso cheddar, mix de lechugas y cebolla crunchy.",
-            img: "",
-            alt: "pata de pulpo a la plancha con romesco",
+            img: "/assets/platos/hamburguesa-angus.webp",
+            alt: "Hamburguesa de angus",
             allergens: ["gluten", "sesamo", "lacteo", "mostaza"]
         }
     ]
