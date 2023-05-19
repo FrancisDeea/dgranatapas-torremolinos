@@ -26,6 +26,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   color: var(--text);
+  background-color: var(--background-color);
 }
 
 h1, h2, h3 {
@@ -40,8 +41,6 @@ main {
   display: grid;
   place-items: center;
   grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 900px) minmax(2rem, 1fr);
-
-  background-color: var(--background-color);
 }
 
 seccion.page_container {

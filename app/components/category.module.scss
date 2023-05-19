@@ -9,13 +9,12 @@
     min-height: 100px;
     aspect-ratio: 2/1;
     flex: 1 0 250px;
-    border: 2px solid black;
     border-radius: 20px;
 }
 
 .img {
     object-fit: cover;
-    filter: brightness(0.3);
+    filter: brightness(0.4);
     z-index: 1;
     transition: all 3s ease-in-out;
 
