@@ -15,20 +15,22 @@ export default function Ensaladas() {
                 <meta name="keywords" content="" />
             </Head>
             <seccion className="page_container">
-                {
-                    salads.map(salad => {
-                        return (
-                            <Plate
-                                name={salad.name}
-                                price={salad.price}
-                                description={salad.description}
-                                img={salad.img}
-                                alt={salad.alt}
-                                allergens={salad.allergens}
-                            />
-                        )
-                    })
-                }
+                <div className="plates_container">
+                    {
+                        salads.map(salad => {
+                            return (
+                                <Plate
+                                    name={salad.name}
+                                    price={salad.price}
+                                    description={salad.description}
+                                    img={salad.img}
+                                    alt={salad.alt}
+                                    allergens={salad.allergens}
+                                />
+                            )
+                        })
+                    }
+                </div>
             </seccion>
         </>
     )

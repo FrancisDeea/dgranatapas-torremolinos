@@ -122,9 +122,9 @@ export const plates = {
         },
 
         {
-            name: "Pan Bao de solomillo ibérico",
+            name: "Bao de solomillo ibérico",
             price: "10",
-            description: "Con mayokimchi (toque agripicante).",
+            description: "Con mayokimchi (agripicante).",
             img: "/assets/platos/pan-bao-solomillo.webp",
             alt: "pan bao de solomillo",
             allergens: ["gluten", "huevo"]

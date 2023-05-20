@@ -9,6 +9,10 @@ import Nav from './nav'
 
 import { useState } from 'react'
 
+import Link from 'next/link';
+import Image from 'next/image';
+import logo from '/public/assets/logo.png';
+
 export default function Header() {
     const [show, setShow] = useState(false);
 
@@ -23,7 +27,7 @@ export default function Header() {
 
     return (
         <header className={styles.container}>
-            <span className={styles.logo}>Hello logo!</span>
+            <Link href="/"><Image className={styles.logo} src={logo} priority /></Link>
             <BsList onClick={handleClick} />
             <div className={styles.modal} style={show ? open : close}>
                 <Nav onClick={handleClick} />

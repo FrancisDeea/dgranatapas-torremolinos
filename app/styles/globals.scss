@@ -4,9 +4,11 @@
   --background-color: #F8F9FA;
   --light-color: #E9ECEF;
   --medium-color: #DEE2E6;
-  --dark-color: #CED4DA;
+  --dark-color: #111111;
   --text: rgb(22, 22, 22);
-  --link : #16302B;
+  --link : #E9ECEF;
+  --left-gradient: rgb(113, 254, 210);
+  --right-gradient: rgb(111, 236, 253);
 }
 
 * {
@@ -25,8 +27,8 @@ body {
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  color: var(--text);
-  background-color: var(--background-color);
+  color: ghostwhite;
+  background: var(--background-color);
 }
 
 h1, h2, h3 {
@@ -40,7 +42,7 @@ p {
 main {
   display: grid;
   place-items: center;
-  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 900px) minmax(2rem, 1fr);
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1100px) minmax(2rem, 1fr);
 }
 
 seccion.page_container {
@@ -51,7 +53,16 @@ seccion.page_container {
   row-gap: 20px;
 
   width: 100%;
+  padding: 5rem 0;
 }
+
+
+div.plates_container {
+  @include flexbox-row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
 
 a {
   color: var(--link);
