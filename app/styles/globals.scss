@@ -7,8 +7,8 @@
   --dark-color: #111111;
   --text: rgb(22, 22, 22);
   --link : #E9ECEF;
-  --left-gradient: rgb(113, 254, 210);
-  --right-gradient: rgb(111, 236, 253);
+  --left-gradient: #a1dfce;
+  --right-gradient: #6ac5ab;
 }
 
 * {
@@ -29,6 +29,10 @@ body {
   font-size: 1.6rem;
   color: ghostwhite;
   background: var(--background-color);
+
+  background: url("../../public/Background.svg") no-repeat;
+  background-size: 100%;
+  background-position: bottom center;
 }
 
 h1, h2, h3 {
@@ -66,6 +70,10 @@ seccion.menu_container {
 
   width: 100%;
   padding: 5rem 0;
+
+  background: url("../../public/pattern6.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
