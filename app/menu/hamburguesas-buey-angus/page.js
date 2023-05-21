@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { plates } from '../../data/plates';
 import Plate from '../../components/plate';
+import Title from '../../components/title';
 
 export default function Hamburguesas() {
     const burguers = plates.burguers;
@@ -14,7 +15,11 @@ export default function Hamburguesas() {
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
             </Head>
-            <seccion className="page_container">
+            <seccion className="menu_container">
+                <Title
+                    heading="Hamburguesas"
+                    description="Pan brioche, carne de primera, 200 gramos reales, queso, patatas... Son hamburguesas, no fallan."
+                />
                 <div className="plates_container">
                     {
                         burguers.map(item => {

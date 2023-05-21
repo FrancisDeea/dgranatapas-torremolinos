@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { plates } from '../../data/plates';
 import Plate from '../../components/plate';
+import Title from '../../components/title';
 
 export default function Platos() {
     const dishes = plates.dishes;
@@ -13,7 +14,11 @@ export default function Platos() {
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
             </Head>
-            <seccion className="page_container">
+            <seccion className="menu_container">
+                <Title
+                    heading="Platos principales"
+                    description="Una amplia variedad de platos elaborados 100% a mano, con sabores que recorren todo el mundo: ¡Desde Andalucía hasta el mismo continente asiático!"
+                />
                 <div className="plates_container">
                     {
                         dishes.map(item => {

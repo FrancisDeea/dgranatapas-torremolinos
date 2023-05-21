@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { plates } from '../../data/plates';
 import Plate from '../../components/plate';
+import Title from '../../components/title';
 
 export default function Entrantes() {
     const snacks = plates.snacks;
@@ -14,7 +15,11 @@ export default function Entrantes() {
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
             </Head>
-            <seccion className="page_container">
+            <seccion className="menu_container">
+                <Title
+                    heading="Entrantes"
+                    description="Snacks, entrantes, picoslabis. No sabemos exactamente qué son, pero si sabemos que son perfectos para compartir. (o no)"
+                />
                 <div className="plates_container">
                     {
                         snacks.map(item => {
