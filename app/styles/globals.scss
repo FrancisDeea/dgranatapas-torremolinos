@@ -28,11 +28,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   color: ghostwhite;
-  background: var(--background-color);
 
-  background: url("../../public/Background.svg") no-repeat;
-  background-size: 100%;
-  background-position: bottom center;
+  background: linear-gradient(90deg, var(--left-gradient) 0%, var(--right-gradient) 100%);
+}
+
+.alhambra {
+  background: no-repeat 0 120%/100% url("../../public/Background.svg"), linear-gradient(90deg, var(--left-gradient) 0%, var(--right-gradient) 100%);
 }
 
 h1, h2, h3 {
@@ -41,7 +42,7 @@ h1, h2, h3 {
 
 p {
   text-align: justify;
-  line-height: 2.2rem;
+  line-height: 2.3rem;
 }
 
 main {
@@ -91,6 +92,12 @@ a {
   color: var(--link);
   text-decoration: none;
   font-weight: 600;
+}
+
+@media (orientation: portrait) {
+  .alhambra {
+    background: no-repeat 0 97%/100% url("../../public/Background.svg"), linear-gradient(90deg, var(--left-gradient) 0%, var(--right-gradient) 100%);
+  }
 }
 
 

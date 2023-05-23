@@ -1,0 +1,24 @@
+.link {
+    display: grid;
+    place-content: center;
+    width: 130px;
+    height: 40px;
+
+    font-size: 1.7rem;
+    border: 1px solid var(--light-color);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: transparent;
+    color: var(--light-color);
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        background: var(--light-color);
+        color: black;
+    }
+
+    &:active {
+        transform: translate(0em, 0.2em);
+    }
+
+}

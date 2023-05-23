@@ -1,10 +1,20 @@
+'use client'
+
 import styles from './menu.module.scss';
 
 import Head from 'next/head';
 
+import { useEffect } from 'react';
+
 import Category from '../components/category';
 
 export default function Menu() {
+
+    useEffect(() => {
+        document.body.classList.toggle('alhambra');
+
+        return () => document.body.classList.toggle('alhambra');
+    }, [])
 
     return (
         <>
