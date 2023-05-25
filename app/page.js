@@ -38,15 +38,16 @@ export default function Home() {
                         frameborder="0" style={{ "border": "0" }}
                         referrerpolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBt4vEsmJK9ZSl3p9D4c-J-99eTkFrEdo&q=D’Graná+Tapas&zoom=16"
-                        allowfullscreen>
+                        allowfullscreen
+                        loading="lazy">
                     </iframe>
 
                     <div className={styles.directions_container}>
 
                         <div className={styles.social_container}>
-                            <AiFillInstagram className={`${styles.icon} ${styles.instagram}`} />
-                            <AiFillFacebook className={`${styles.icon} ${styles.facebook}`} />
-                            <AiFillMail className={`${styles.icon} ${styles.mail}`} />
+                            <a href="https://www.instagram.com/dgranatapas" target="_blank"><AiFillInstagram className={`${styles.icon} ${styles.instagram}`} /></a>
+                            <a href="https://www.facebook.com/DGran%C3%A1-Tapas" target='_blank'><AiFillFacebook className={`${styles.icon} ${styles.facebook}`} /></a>
+                            <a href="mailto:" target="_blank"><AiFillMail className={`${styles.icon} ${styles.mail}`} /></a>
                         </div>
 
                         <div className={styles.address_container}>
