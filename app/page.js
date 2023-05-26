@@ -13,8 +13,8 @@ export default function Home() {
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
             </Head>
-            <seccion className={`${styles.home_section} page_container`}>
-                <header className={styles.header_section}>
+            <seccion className={`${styles.home_seccion} page_container`}>
+                <header className={styles.header_seccion}>
                     <h1>
                         <span className={styles.name}>D'Graná Tapas</span><br />
                         <span className={styles.pride}>Torremolinos</span><br />

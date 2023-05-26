@@ -1,6 +1,6 @@
 @import './variables';
 
-.header_section {
+.header_seccion {
     @include flexbox-column;
     row-gap: 1rem;
     padding: 2rem 20rem;
@@ -106,7 +106,7 @@
 
 
 @media (max-width: 1100px) {
-    .header_section {
+    .header_seccion {
         padding: 2rem;
 
         .name {
