@@ -31,6 +31,9 @@ export default function Menu() {
                     <Category title="Pescados" img="/assets/platos/pata-pulpo-salsa-romesco.webp" url="/menu/pescados" />
                     <Category title="Exigentes" img="/assets/platos/milhojas-queso-cabra-mango-jamon.webp" url="/menu/platos-exigentes" />
                     <Category title="Hamburguesas" img="/assets/platos/hamburguesa-ternera-buey.webp" url="/menu/hamburguesas-buey-angus" />
+                    <Category title="Asiático" img="" url="/menu/platos-asiaticos" />
+                    <Category title="Postres" img="" url="/menu/hamburguesas-buey-angus" />
+                    <Category title="Bebidas" img="" url="/menu/hamburguesas-buey-angus" />
                 </div>
             </seccion>
         </>
