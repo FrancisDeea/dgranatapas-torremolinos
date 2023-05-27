@@ -2,7 +2,7 @@ export const plates = {
     salads: [
         {
             name: "Beicon",
-            price: "8.50",
+            price: "9",
             description: "Mix de lechugas, medallón de beicon y queso de cabra, frutos secos y salsa de miel y mostaza.",
             img: "/assets/platos/ensalada-bacon-queso-cabra.webp",
             alt: "ensalada de bacon y queso de cabra",
@@ -11,7 +11,7 @@ export const plates = {
 
         {
             name: "Cesar",
-            price: "8.50",
+            price: "9",
             description: "Mix de lechugas, pollo, picatostes y escamas de parmesano.",
             img: "/assets/platos/ensalada-cesar.webp",
             alt: "ensalada cesar",
@@ -22,7 +22,7 @@ export const plates = {
     snacks: [
         {
             name: "Twister de langostinos",
-            price: "8",
+            price: "8.50",
             description: "6 Uds. con salsa sweet chili.",
             img: "/assets/platos/twistter-langostinos-crujientes.webp",
             alt: "twister de langostinos",
@@ -31,7 +31,7 @@ export const plates = {
 
         {
             name: "Lagrimitas de pollo",
-            price: "8.50",
+            price: "9.50",
             description: "Con patatas fritas y salsa gaucha argentina.",
             img: "/assets/platos/lagrimas-pechuga-pollo.webp",
             alt: "lagrimitas de pollo",
@@ -40,7 +40,7 @@ export const plates = {
 
         {
             name: "Bravas a la Camboria",
-            price: "5.50",
+            price: "6",
             description: "Papas fritas con salsa brava al estilo de Madrid.",
             img: "/assets/platos/patatas-bravas-caseras.webp",
             alt: "papas bravas madrileñas",
@@ -49,7 +49,7 @@ export const plates = {
 
         {
             name: "Roscas",
-            price: "7.50",
+            price: "9",
             description: "De jamón serrano ó de lomo, con tomate y queso.",
             img: "/assets/platos/rosca-jamon-lomo-queso.webp",
             alt: "rosca de jamon o lomo de cerdo",
@@ -57,17 +57,17 @@ export const plates = {
         },
 
         {
-            name: "Camenbert frito",
-            price: "8",
-            description: "3 uds. con coulis de arándanos.",
-            img: "/assets/platos/queso-frito-camembert.webp",
-            alt: "queso frito camembert",
+            name: "Milhojas con fuá de pato y queso de cabra",
+            price: "10",
+            description: null,
+            img: "",
+            alt: "Milhojas con fuá de pato y queso de cabra",
             allergens: ["gluten", "lacteo", "huevo"]
         },
 
         {
             name: "Risotto",
-            price: "9.50",
+            price: "10",
             description: "De champiñones, solomillo y parmesano.",
             img: "/assets/platos/risotto-solomillo-setas.webp",
             alt: "risotto de solomillo",
@@ -76,7 +76,7 @@ export const plates = {
 
         {
             name: "Cazuela de papas gratinadas",
-            price: "7.50",
+            price: "10",
             description: "Papas fritas con mayonesa, beicon y 3 quesos gratinados.",
             img: "/assets/platos/cazuela-patatas-gratinadas-bacon.webp",
             alt: "cazuela de papas gratinadas con bacon",
@@ -87,16 +87,16 @@ export const plates = {
     dishes: [
         {
             name: "Croquetas de la casa",
-            price: "9 / 4.50",
+            price: "10 / 5",
             description: "8 / 4 uds. de puchero, rabo de toro ó pollo al curry.",
             img: "/assets/platos/croquetas-puchero-rabo-toro-curry.webp",
             alt: "croquetas caseras de la casa",
-            allergens: ["lacteo", "huevo", "gluten", "soja"]
+            allergens: ["lacteo", "huevo", "gluten"]
         },
 
         {
             name: "Flamenquín Cordobés",
-            price: "9",
+            price: "10",
             description: "Relleno de lomo, jamón serrano, queso y pimiento.",
             img: "/assets/platos/flamenquin-cordobes-casero.webp",
             alt: "flamenquin cordobes casero",
@@ -104,17 +104,8 @@ export const plates = {
         },
 
         {
-            name: "Pollo teriyaki",
-            price: "10",
-            description: "Con arroz y salsa sweet chili.",
-            img: "/assets/platos/pollo-teriyaki-arroz.webp",
-            alt: "pollo teriyaki con arroz",
-            allergens: ["lacteo", "huevo", "gluten"]
-        },
-
-        {
             name: "Cazuela de huevos rotos y virutas de foie",
-            price: "9",
+            price: "10",
             description: "Papas panaderas con virutas de jamón serrano y foie.",
             img: "/assets/platos/cazuela-patatas-gratinadas-bacon.webp",
             alt: "huevos rotos con jamon y foie",
@@ -122,29 +113,74 @@ export const plates = {
         },
 
         {
+            name: "Tosta de Queso Cabra",
+            price: "9.50",
+            description: "Queso de cabra, cebolla caramelizada y miel de caña.",
+            img: "",
+            alt: "tosta de queso de cabra y cebolla caramelizada",
+            allergens: ["gluten", "lacteo", "sesamo"]
+        },
+
+        {
+            name: "Tosta de Pulpo",
+            price: "11",
+            description: "Pulpo con pimenton de la Vera, tomate y queso gratinado.",
+            img: "",
+            alt: "tosta de pulpo, tomate y queso gratinado.",
+            allergens: ["gluten", "lacteo", "crustaceo", "pescado", "sesamo"]
+        },
+
+        {
+            name: "Tosta de Alioli Gratinado",
+            price: "8",
+            description: "Gratinado de alioli, parmesano y 3 quesos.",
+            img: "/assets/platos/tosta-pan-ajo-queso-cabra.webp",
+            alt: "tosta de alioli gratinado, parmesano y tres quesos",
+            allergens: ["gluten", "lacteo", "sesamo"]
+        }
+
+    ],
+
+    asian: [
+        {
+            name: "Katsu sando D'Graná",
+            price: "14",
+            description: "Pan brioche, ensalada asiática, crujiente de pollo, mayo kimchi y teriyaki.",
+            img: "",
+            alt: "Sandwich katsu sando d'grana",
+            allergens: ["mostaza", "huevo", "gluten", "soja", "sesamo"]
+        },
+
+        {
+            name: "Tartar de Atún en crujiente de arroz",
+            price: "16",
+            description: "Con emulsión de mango a nuestro estilo, aguacate y alga nori.",
+            img: "",
+            alt: "Sandwich katsu sando d'grana",
+            allergens: ["lacteo", "pescado", "soja", "sesamo"]
+        },
+
+        {
+            name: "Pollo teriyaki",
+            price: "11",
+            description: "Con arroz y salsa sweet chili.",
+            img: "/assets/platos/pollo-teriyaki-arroz.webp",
+            alt: "pollo teriyaki con arroz",
+            allergens: ["lacteo", "huevo", "gluten"]
+        },
+
+        {
             name: "Bao de solomillo ibérico",
-            price: "10",
-            description: "Con mayokimchi (agripicante).",
+            price: "12",
+            description: "Con mayokimchi. 3 uds.",
             img: "/assets/platos/pan-bao-solomillo.webp",
             alt: "pan bao de solomillo",
             allergens: ["gluten", "huevo"]
         },
 
         {
-            name: "Tostas",
-            price: "8",
-            description: {
-                1: "Queso de cabra, cebolla caramelizada y miel de caña.",
-                2: "Gratinado de alioli, parmesano y tres quesos."
-            },
-            img: "/assets/platos/tosta-pan-ajo-queso-cabra.webp",
-            alt: "tosta de pan de ajo o queso de cabra",
-            allergens: ["gluten", "lacteo"]
-        },
-
-        {
             name: "Wok de noodles Udon",
-            price: "10",
+            price: "11",
             description: "Pídelos de pollo, gambas ó mixto (+1€)",
             img: "/assets/platos/wok-noodles-udon-pollo-gambas.webp",
             alt: "wok de noodles udon con pollo y gambas",
@@ -155,7 +191,7 @@ export const plates = {
     fishes: [
         {
             name: "Cazón en adobo frito",
-            price: "8.50",
+            price: "9.50",
             description: null,
             img: "/assets/platos/cazon-adobo-frito.webp",
             alt: "cazon frito en adobo",
@@ -164,7 +200,7 @@ export const plates = {
 
         {
             name: "Almejas a la marinera",
-            price: "9.50",
+            price: "10.50",
             description: null,
             img: "/assets/platos/almejas-marinera.webp",
             alt: "almejas a la marinera",
@@ -173,18 +209,18 @@ export const plates = {
 
         {
             name: "Pata de pulto",
-            price: "14",
-            description: "A la plancha, sobre cremoso de romesco y alioli de pimentón de La Vera.",
+            price: "14.50",
+            description: "Pata de pulpo salteada, cremoso de romesco y alioli de pimentón de La Vera.",
             img: "/assets/platos/pata-pulpo-salsa-romesco.webp",
             alt: "pata de pulpo a la plancha con romesco",
             allergens: ["cascara", "sesamo", "sulfito", "pescado"]
         }
-    ], 
+    ],
 
     demanding: [
         {
             name: "Pluma ibérica BT",
-            price: "14",
+            price: "15",
             description: "Cocinada a baja temperatura, con jamón serrano y aceite trufado.",
             img: "/assets/platos/pluma-iberica-baja-temperatura.webp",
             alt: "pluma iberica a baja temperatura con patatas",
@@ -193,7 +229,7 @@ export const plates = {
 
         {
             name: "Costillas de cerdo BBQ",
-            price: "14",
+            price: "15",
             description: "Cocinadas a baja temperatura con salsa bbq y papas.",
             img: "/assets/platos/costillas-cerdo-barbacoa.webp",
             alt: "costillas de cerdo barbacoa",
@@ -202,7 +238,7 @@ export const plates = {
 
         {
             name: "Milhojas",
-            price: "9",
+            price: "10",
             description: "Con queso de cabra, jamón serrano y confitura de mango.",
             img: "/assets/platos/milhojas-queso-cabra-mango-jamon.webp",
             alt: "milhojas de queso cabra, mango y jamon",
@@ -211,7 +247,7 @@ export const plates = {
 
         {
             name: "Sacos de calabacín",
-            price: "8",
+            price: "9",
             description: "Rellenos de bechamel de puerros y boletus.",
             img: "/assets/platos/sacos-calabacin-bechamel-puerros.webp",
             alt: "sacos de calabacin rellenos",
@@ -219,19 +255,19 @@ export const plates = {
         },
 
         {
-            name: "Churrasco de pollo",
-            price: "9",
-            description: "Con chutney de mango y quinoa con verduras.",
-            img: "/assets/platos/churrasco-pollo-timbal-quinoa.webp",
-            alt: "churrasco de pollo con quinoa",
-            allergens: null
+            name: "Gofre de pollo Crunchy",
+            price: "10.50",
+            description: "Con queso americano cheddar, feta, mezclum y aove trufado.",
+            img: "",
+            alt: "Gofre de pollo crujiente con queso feta y cheddar",
+            allergens: ["gluten", "sesamo", "lacteo"]
         }
     ],
 
     burguers: [
         {
             name: "Ternera y buey (200gr)",
-            price: "10",
+            price: "10.50",
             description: "Queso de cabra, cebolla caramelizada, acompañada de papas.",
             img: "/assets/platos/hamburguesa-ternera-buey.webp",
             alt: "Hamburguesa de ternera y buey",
@@ -240,7 +276,7 @@ export const plates = {
 
         {
             name: "Angus (200gr)",
-            price: "10",
+            price: "12.50",
             description: "Doble de beicon, queso cheddar, mix de lechugas y cebolla crunchy.",
             img: "/assets/platos/hamburguesa-angus.webp",
             alt: "Hamburguesa de angus",
