@@ -282,5 +282,43 @@ export const plates = {
             alt: "Hamburguesa de angus",
             allergens: ["gluten", "sesamo", "lacteo", "mostaza"]
         }
+    ],
+
+    dessert: [
+        {
+            name: "Tarta de Queso de la Viña",
+            price: "4.80",
+            description: null,
+            img: "/assets/platos/tarta de queso viña.webp",
+            alt: "Tarta de queso de la viña",
+            allergens: ["lacteo"]
+        },
+
+        {
+            name: "Coulant de Chocolate con helado de vainilla",
+            price: "4.90",
+            description: null,
+            img: "",
+            alt: "Coulant de chocolate con helado de vainilla",
+            allergens: ["gluten", "lacteo", "huevo", "cascara"]
+        },
+
+        {
+            name: "Migas de Chocolate",
+            price: "5.50",
+            description: "Con twist de Baileys y chocolate blanco, y helado de vainilla.",
+            img: "/assets/platos/migas de chocolate con baileys.webp",
+            alt: "Migas de chocolate con twist de baileys y helado de vainilla",
+            allergens: ["gluten", "lacteo", "huevo", "cascara"]
+        },
+
+        {
+            name: "Postre de la semana",
+            price: "5.50",
+            description: "¡Pregunta por nuestro postre especial de la semana!",
+            img: "/assets/platos/postre de la semana.webp",
+            alt: "Postre especial de la semana",
+            allergens: ["gluten", "lacteo", "huevo", "cascara"]
+        }
     ]
 }
