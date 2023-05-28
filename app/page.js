@@ -35,10 +35,9 @@ export default function Home() {
 
                     <iframe
                         className={styles.map}
-                        frameborder="0" style={{ "border": "0" }}
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBt4vEsmJK9ZSl3p9D4c-J-99eTkFrEdo&q=D’Graná+Tapas&zoom=16"
-                        allowfullscreen
+                        allowFullScreen
                         loading="lazy">
                     </iframe>
 

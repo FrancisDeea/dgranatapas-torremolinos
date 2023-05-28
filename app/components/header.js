@@ -27,7 +27,7 @@ export default function Header() {
 
     return (
         <header className={styles.container}>
-            <Link href="/"><Image className={styles.logo} src={logo} priority /></Link>
+            <Link href="/"><Image className={styles.logo} src={logo} alt="logo dgrana tapas" /></Link>
             <BsList onClick={handleClick} />
             <div className={styles.modal} style={show ? open : close}>
                 <Nav onClick={handleClick} />
