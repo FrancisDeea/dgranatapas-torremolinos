@@ -60,7 +60,7 @@ export const plates = {
             name: "Milhojas con fuá de pato y queso de cabra",
             price: "10",
             description: null,
-            img: "",
+            img: "/assets/platos/milhojas de fua de pato y queso de cabra.webp",
             alt: "Milhojas con fuá de pato y queso de cabra",
             allergens: ["gluten", "lacteo", "huevo"]
         },
@@ -125,7 +125,7 @@ export const plates = {
             name: "Tosta de Pulpo",
             price: "11",
             description: "Pulpo con pimenton de la Vera, tomate y queso gratinado.",
-            img: "",
+            img: "/assets/platos/tosta de pulpo tomate y queso.webp",
             alt: "tosta de pulpo, tomate y queso gratinado.",
             allergens: ["gluten", "lacteo", "crustaceo", "pescado", "sesamo"]
         },
@@ -146,7 +146,7 @@ export const plates = {
             name: "Katsu sando D'Graná",
             price: "14",
             description: "Pan brioche, ensalada asiática, crujiente de pollo, mayo kimchi y teriyaki.",
-            img: "",
+            img: "/assets/platos/katsu sando dgrana tapas.webp",
             alt: "Sandwich katsu sando d'grana",
             allergens: ["mostaza", "huevo", "gluten", "soja", "sesamo"]
         },
@@ -155,7 +155,7 @@ export const plates = {
             name: "Tartar de Atún en crujiente de arroz",
             price: "16",
             description: "Con emulsión de mango a nuestro estilo, aguacate y alga nori.",
-            img: "",
+            img: "/assets/platos/tartar atun crujiente arroz.webp",
             alt: "Sandwich katsu sando d'grana",
             allergens: ["lacteo", "pescado", "soja", "sesamo"]
         },
@@ -249,7 +249,7 @@ export const plates = {
             name: "Sacos de calabacín",
             price: "9",
             description: "Rellenos de bechamel de puerros y boletus.",
-            img: "/assets/platos/sacos-calabacin-bechamel-puerros.webp",
+            img: "/assets/platos/sacos de calabacin con bechamel de puerros y boletos.webp",
             alt: "sacos de calabacin rellenos",
             allergens: ["huevo", "lacteo"]
         },
@@ -258,7 +258,7 @@ export const plates = {
             name: "Gofre de pollo Crunchy",
             price: "10.50",
             description: "Con queso americano cheddar, feta, mezclum y aove trufado.",
-            img: "",
+            img: "/assets/platos/gofre de pollo crunchy.webp",
             alt: "Gofre de pollo crujiente con queso feta y cheddar",
             allergens: ["gluten", "sesamo", "lacteo"]
         }
