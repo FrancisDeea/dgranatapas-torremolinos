@@ -25,7 +25,7 @@ export default function Home() {
                 </header>
             </seccion>
 
-            <seccion className={`${styles.contact_seccion} page_container`}>
+            <seccion id="contact" className={`${styles.contact_seccion} page_container`}>
 
                 <header className={styles.contact_header}>
                     <h2 className={styles.contact_title}>¿Sabes ya dónde encontrarnos?</h2>
