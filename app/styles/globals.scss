@@ -70,7 +70,7 @@ seccion.menu_container {
   row-gap: 50px;
 
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 0rem;
 
   background: url("../../public/pattern6.png");
   background-size: cover;
@@ -97,6 +97,15 @@ a {
 @media (orientation: portrait) {
   .alhambra {
     background: no-repeat 0 97%/100% url("../../public/Background.svg"), linear-gradient(90deg, var(--left-gradient) 0%, var(--right-gradient) 100%);
+  }
+
+  seccion.menu_container {
+    padding: 2rem 0;
+    row-gap: 2rem;
+  }
+
+  seccion.drinks_container {
+    padding: 2rem;
   }
 }
 

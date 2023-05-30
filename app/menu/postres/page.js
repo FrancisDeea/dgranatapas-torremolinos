@@ -4,7 +4,7 @@ import { plates } from '../../data/plates';
 import Plate from '../../components/plate';
 import Title from '../../components/title';
 
-export default function Asiatico() {
+export default function Postres() {
     const dessert = plates.dessert;
 
 

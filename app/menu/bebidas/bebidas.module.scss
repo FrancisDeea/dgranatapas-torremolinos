@@ -1,0 +1,48 @@
+@import '../../styles/variables';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+
+    border-top: 3px solid ghostwhite;
+    border-bottom: 3px solid ghostwhite;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+article.product {
+    width: 100%;
+}
+
+article.product > p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+article.product > p:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.left {
+    width: 70%;
+    text-align: justify;
+}
+
+.right {
+    width: 30%;
+    text-align: right;
+}
+
+.subtitle {
+    text-align: left;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid ghostwhite;
+    margin-bottom: 1rem;
+}
