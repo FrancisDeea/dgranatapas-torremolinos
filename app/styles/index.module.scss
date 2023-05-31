@@ -1,12 +1,26 @@
 @import './variables';
 
+.home_seccion {
+    grid-column: -1 / 1 !important;
+    min-height: calc(100vh - 50px); 
+    width: 100%;
+  
+    @include flexbox-column;
+
+    padding: 5rem 0;
+    background: linear-gradient(rgb(0, 0, 0, 0.4) 0%, rgb(0, 0, 0, 0.4) 100%), url("../../public/bghome.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .header_seccion {
+    max-width: 1100px;
     @include flexbox-column;
     row-gap: 1rem;
     padding: 2rem 20rem;
 
-    border-top: 3px solid ghostwhite;
-    border-bottom: 3px solid ghostwhite;
+    border: 3px solid ghostwhite;
+    border-radius: 10px;
     background: rgb(0, 0, 0, 0.7);
 
     .pride {
@@ -38,7 +52,8 @@
 
 .contact_seccion {
     grid-column: -1 / 1 !important;
-    padding: 0 2rem !important;
+    width: 100%;
+    padding: 5rem 2rem !important;
     background: black;
     row-gap: 5rem !important;
 
@@ -55,6 +70,7 @@
 
         .map {
             flex: 1;
+            width: 100%;
             aspect-ratio: 2 / 1;
             border-radius: 10px;
             border: 2px solid ghostwhite !important;
@@ -103,9 +119,32 @@
     }
 }
 
+@media (orientation: portrait) {
+    .home_seccion {
+        background: linear-gradient(rgb(0, 0, 0, 0.4) 0%, rgb(0, 0, 0, 0.4) 100%), url("../../public/bghome-portrait.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
 
+    .contact_seccion {
+        .info_container {
+            flex-direction: column;
+            align-items: initial;
+        }
+    }
+
+    .map {
+        min-height: 200px;
+    }
+
+}
 
 @media (max-width: 1100px) {
+    .home_seccion {
+        padding: 2rem;
+    }
+
     .header_seccion {
         padding: 2rem;
 
