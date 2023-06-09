@@ -60,7 +60,7 @@ export const plates = {
             name: "Milhojas con fuá de pato y queso de cabra",
             price: "10",
             description: null,
-            img: "/assets/platos/milhojas de fua de pato y queso de cabra.webp",
+            img: "/assets/platos/milhojas-fua-queso-cabra.webp",
             alt: "Milhojas con fuá de pato y queso de cabra",
             allergens: ["gluten", "lacteo", "huevo"]
         },
@@ -116,7 +116,7 @@ export const plates = {
             name: "Tosta de Queso Cabra",
             price: "9.50",
             description: "Queso de cabra, cebolla caramelizada y miel de caña.",
-            img: "",
+            img: "/assets/platos/tosta-queso-cabra-miel.webp",
             alt: "tosta de queso de cabra y cebolla caramelizada",
             allergens: ["gluten", "lacteo", "sesamo"]
         },
@@ -146,7 +146,7 @@ export const plates = {
             name: "Katsu sando D'Graná",
             price: "14",
             description: "Pan brioche, ensalada asiática, crujiente de pollo, mayo kimchi y teriyaki.",
-            img: "/assets/platos/katsu sando dgrana tapas.webp",
+            img: "/assets/platos/katsu-sando-dgrana-2.webp",
             alt: "Sandwich katsu sando d'grana",
             allergens: ["mostaza", "huevo", "gluten", "soja", "sesamo"]
         },

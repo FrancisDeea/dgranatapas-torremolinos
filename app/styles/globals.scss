@@ -37,7 +37,12 @@ body {
 }
 
 h1, h2, h3 {
+  font-size: 3.5rem;
   text-align: center;
+}
+
+h2, h3 {
+  font-size: 3.5rem;
 }
 
 p {
@@ -52,14 +57,14 @@ main {
 }
 
 seccion.page_container {
-  grid-column: 2 / 3;
+  grid-column: -1 / 1;
   min-height: calc(100vh - 50px); 
 
   @include flexbox-column;
   row-gap: 50px;
 
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
 }
 
 seccion.menu_container {

@@ -5,16 +5,19 @@ import { AiFillInstagram, AiFillFacebook, AiFillMail } from 'react-icons/ai'
 import Head from 'next/head'
 import Button from './components/button';
 
+import Image from 'next/image';
+import bar from '../public/dgranatapas-torremolinos.webp';
+
 export default function Home() {
     return (
         <>
             <Head>
-                <title></title>
-                <meta name="description" content="" />
-                <meta name="keywords" content="" />
+                <title>D'Graná Tapas - Inicio</title>
+                <meta name="description" content="Disfruta de almuerzos, cenas y tapas gratis con tu bebida como en Granada, pero en Málaga, Torremolinos." />
+                <meta name="keywords" content="bar, tapas, cenas, comidas, malaga, torremolinos" />
             </Head>
-            <seccion className={`${styles.home_seccion}`}>
-                <header className={styles.header_seccion}>
+            <seccion className={`${styles.home_seccion} page_container`}>
+                <header className={styles.home_header}>
                     <h1>
                         <span className={styles.name}>D'Graná Tapas</span><br />
                         <span className={styles.pride}>Torremolinos</span><br />
@@ -25,10 +28,35 @@ export default function Home() {
                 </header>
             </seccion>
 
+            <seccion className={`${styles.about_seccion} page_container`}>
+
+                <header className={styles.about_header}>
+                    <h2 className={styles.black}>Conoce nuestro bar, nuestra historia.</h2>
+                </header>
+
+                <div className={styles.columns_container}>
+
+                    <div className={styles.about_content}>
+                        <p className={styles.black}>Somos lalala ven conocenos y prueba nuestras tapas, jajaja que risa. Esto es una mera prueba. No se como quedará.</p>
+                        <Button value="Ver historia" url="/menu" className={styles.btn} />
+                    </div>
+
+                    <div className={styles.img_container}>
+                        <Image
+                            className={styles.img}
+                            src={bar}
+                            fill
+                        />
+                    </div>
+
+                </div>
+
+            </seccion>
+
             <seccion id="contact" className={`${styles.contact_seccion} page_container`}>
 
-                <header className={styles.contact_header}>
-                    <h2 className={styles.contact_title}>¿Sabes ya dónde encontrarnos?</h2>
+                <header>
+                    <h2>¿Sabes ya dónde encontrarnos?</h2>
                 </header>
 
                 <div className={styles.info_container}>

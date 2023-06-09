@@ -1,23 +1,18 @@
 @import './variables';
 
 .home_seccion {
-    grid-column: -1 / 1 !important;
-    min-height: calc(100vh - 50px); 
-    width: 100%;
-  
-    @include flexbox-column;
-
-    padding: 5rem 0;
     background: linear-gradient(rgb(0, 0, 0, 0.4) 0%, rgb(0, 0, 0, 0.4) 100%), url("../../public/bghome.webp");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.header_seccion {
+.home_header {
     max-width: 1100px;
+    width: 100%;
+
     @include flexbox-column;
     row-gap: 1rem;
-    padding: 2rem 20rem;
+    padding: 2rem;
 
     border: 3px solid ghostwhite;
     border-radius: 10px;
@@ -46,34 +41,75 @@
     }
 
     .description {
+        width: 60%;
         font-weight: 600;
     }
 }
 
-.contact_seccion {
-    grid-column: -1 / 1 !important;
-    width: 100%;
-    padding: 5rem 2rem !important;
-    background: black;
-    row-gap: 5rem !important;
+.about_seccion {
+    min-height: calc(100vh) !important;
 
-    .contact_title {
-        font-size: 3.5rem;
+    .columns_container {
+        max-width: 1100px;
+        width: 100%;
+
+        @include flexbox-row;
+        flex-wrap: wrap;
+        gap: 5rem;
+
+        .about_content {
+            flex: 1;
+            font-weight: 500;
+
+            a {
+                margin-top: 1rem;
+                border-color: black;
+                color: black;
+            }
+        }
+    
+        .img_container {
+            display: block;
+            position: relative;
+            overflow: hidden;
+    
+            flex: 1;
+            aspect-ratio: 2 / 1;
+            min-width: 300px;
+
+            border-radius: 1rem;
+            border: 2px solid ghostwhite;
+    
+            .img {
+                object-fit: cover;
+            }
+        }
     }
+
+    .black {
+        color: black;
+    }
+}
+
+.contact_seccion {
+    background: black;
 
     .info_container {
         max-width: 1100px;
         width: 100%;
+
         @include flexbox-row;
         flex-wrap: wrap;
+
         gap: 5rem;
 
         .map {
             flex: 1;
             width: 100%;
             aspect-ratio: 2 / 1;
-            border-radius: 10px;
-            border: 2px solid ghostwhite !important;
+
+            border-radius: 1rem;
+            border: 2px solid ghostwhite;
         }
 
         .directions_container {
@@ -83,10 +119,10 @@
             row-gap: 2rem;
 
             font-size: 1.8rem;
-            font-weight: 500;
+            font-weight: 600;
 
             address {
-                margin-top: 2rem;
+                margin-top: 1rem;
             }
 
             .social_container {
@@ -125,6 +161,11 @@
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+
+        .description {
+            width: 100%;
+            text-align: justify;
+        }
     }
 
     .contact_seccion {
@@ -136,31 +177,6 @@
 
     .map {
         min-height: 200px;
-    }
-
-}
-
-@media (max-width: 1100px) {
-    .home_seccion {
-        padding: 2rem;
-    }
-
-    .header_seccion {
-        padding: 2rem;
-
-        .name {
-            font-size: 3.5rem;
-        }
-    }
-
-    .description {
-        text-align: justify;
-    }
-
-    .contact_seccion {
-        .contact_title {
-            font-size: 3rem;
-        }
     }
 
 }
