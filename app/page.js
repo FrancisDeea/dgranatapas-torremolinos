@@ -16,7 +16,7 @@ export default function Home() {
                 <meta name="description" content="Disfruta de almuerzos, cenas y tapas gratis con tu bebida como en Granada, pero en Málaga, Torremolinos." />
                 <meta name="keywords" content="bar, tapas, cenas, comidas, malaga, torremolinos" />
             </Head>
-            <seccion className={`${styles.home_seccion} page_container`}>
+            <seccion id="home" className={`${styles.home_seccion} page_container`}>
                 <header className={styles.home_header}>
                     <h1>
                         <span className={styles.name}>D'Graná Tapas</span><br />
@@ -41,12 +41,15 @@ export default function Home() {
                         <Button value="Ver historia" url="/menu" className={styles.btn} />
                     </div>
 
-                    <div className={styles.img_container}>
-                        <Image
-                            className={styles.img}
-                            src={bar}
-                            fill
-                        />
+                    <div className={styles.img_content}>
+                        <div className={styles.img_container}>
+                            <Image
+                                alt="localización dgrana tapas torremolinos"
+                                className={styles.img}
+                                src={bar}
+                                fill
+                            />
+                        </div>
                     </div>
 
                 </div>

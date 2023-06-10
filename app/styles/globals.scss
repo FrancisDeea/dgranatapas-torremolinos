@@ -4,7 +4,7 @@
   --background-color: #F8F9FA;
   --light-color: #E9ECEF;
   --medium-color: #DEE2E6;
-  --dark-color: #111111;
+  --dark-color: #0e0e0e;
   --text: rgb(22, 22, 22);
   --link : #E9ECEF;
   --left-gradient: #a1dfce;
@@ -41,10 +41,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-h2, h3 {
-  font-size: 3.5rem;
-}
-
 p {
   text-align: justify;
   line-height: 2.3rem;
@@ -58,7 +54,7 @@ main {
 
 seccion.page_container {
   grid-column: -1 / 1;
-  min-height: calc(100vh - 50px); 
+  min-height: 100vh;
 
   @include flexbox-column;
   row-gap: 50px;
@@ -100,6 +96,10 @@ a {
 }
 
 @media (orientation: portrait) {
+  h1, h2, h3 {
+    font-size: 2.7rem;
+  }
+
   .alhambra {
     background: no-repeat 0 97%/100% url("../../public/Background.svg"), linear-gradient(90deg, var(--left-gradient) 0%, var(--right-gradient) 100%);
   }

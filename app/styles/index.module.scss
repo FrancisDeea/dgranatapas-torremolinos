@@ -68,20 +68,24 @@
             }
         }
     
-        .img_container {
-            display: block;
-            position: relative;
-            overflow: hidden;
-    
+        .img_content {
             flex: 1;
-            aspect-ratio: 2 / 1;
-            min-width: 300px;
 
-            border-radius: 1rem;
-            border: 2px solid ghostwhite;
+            .img_container {
+                display: block;
+                position: relative;
+                overflow: hidden;
+        
+                aspect-ratio:  3 / 2;
+                width: 100%;
+                min-width: 250px;
     
-            .img {
-                object-fit: cover;
+                border-radius: 1rem;
+                border: 2px solid ghostwhite;
+        
+                .img {
+                    object-fit: cover;
+                }
             }
         }
     }
@@ -106,7 +110,8 @@
         .map {
             flex: 1;
             width: 100%;
-            aspect-ratio: 2 / 1;
+            min-width: 250px;
+            aspect-ratio: 3 / 2;
 
             border-radius: 1rem;
             border: 2px solid ghostwhite;
@@ -156,6 +161,10 @@
 }
 
 @media (orientation: portrait) {
+    .name {
+        font-size: 3.5rem !important;
+    }
+
     .home_seccion {
         background: linear-gradient(rgb(0, 0, 0, 0.4) 0%, rgb(0, 0, 0, 0.4) 100%), url("../../public/bghome-portrait.webp");
         background-size: cover;
@@ -167,16 +176,4 @@
             text-align: justify;
         }
     }
-
-    .contact_seccion {
-        .info_container {
-            flex-direction: column;
-            align-items: initial;
-        }
-    }
-
-    .map {
-        min-height: 200px;
-    }
-
 }

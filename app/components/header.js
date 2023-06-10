@@ -3,7 +3,7 @@
 import styles from './header.module.scss'
 
 import { BsList } from 'react-icons/bs'
-import { GrClose } from 'react-icons/gr'
+import { AiOutlineClose } from 'react-icons/ai'
 
 import Nav from './nav'
 
@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '/public/assets/logo.png';
+import logo from '/public/assets/logo-dgrana-tapas-blanco.png';
 
 export default function Header() {
     const [show, setShow] = useState(false);
@@ -27,11 +27,11 @@ export default function Header() {
 
     return (
         <header className={styles.container}>
-            <Link href="/"><Image className={styles.logo} src={logo} alt="logo dgrana tapas" /></Link>
-            <BsList onClick={handleClick} />
-            <div className={styles.modal} style={show ? open : close}>
+            <Link href="/#home"><Image className={styles.logo} src={logo} alt="logo dgrana tapas" /></Link>
+            <BsList className={styles.btn_open} onClick={handleClick} />
+            <div className={styles.modal} onClick={handleClick} style={show ? open : close}>
                 <Nav onClick={handleClick} />
-                <GrClose className={styles.btn_close} onClick={handleClick} />
+                <AiOutlineClose className={styles.btn_close} onClick={handleClick} />
             </div>
         </header>
     )
