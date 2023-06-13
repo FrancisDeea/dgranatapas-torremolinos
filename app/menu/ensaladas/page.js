@@ -25,6 +25,7 @@ export default function Ensaladas() {
                         salads.map(salad => {
                             return (
                                 <Plate
+                                    key={salad.name}
                                     name={salad.name}
                                     price={salad.price}
                                     description={salad.description}

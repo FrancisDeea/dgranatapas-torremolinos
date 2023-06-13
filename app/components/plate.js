@@ -4,10 +4,10 @@ import {findAllergens} from '../data/findAllergens';
 
 import Image from 'next/image';
 
-export default function Plate({ name, price, description, img, alt, allergens }) {
+export default function Plate({ name, price, description, img, alt, allergens, key }) {
 
     return (
-        <article className={styles.container}>
+        <article key={key} className={styles.container}>
             <div className={styles.img_container}>
                 <Image
                     className={styles.img}
