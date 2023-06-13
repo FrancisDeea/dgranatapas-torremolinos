@@ -25,6 +25,7 @@ export default function Entrantes() {
                         snacks.map(item => {
                             return (
                                 <Plate
+                                    key={item.name}
                                     name={item.name}
                                     price={item.price}
                                     description={item.description}

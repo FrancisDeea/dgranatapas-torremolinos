@@ -25,6 +25,7 @@ export default function Asiatico() {
                         asian.map(item => {
                             return (
                                 <Plate
+                                    key={item.name}
                                     name={item.name}
                                     price={item.price}
                                     description={item.description}

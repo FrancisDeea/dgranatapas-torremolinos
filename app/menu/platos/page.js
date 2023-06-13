@@ -28,6 +28,7 @@ export default function Platos() {
                             }
                             return (
                                 <Plate
+                                    key={item.name}
                                     name={item.name}
                                     price={item.price}
                                     description={
