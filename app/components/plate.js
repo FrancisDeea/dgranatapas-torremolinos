@@ -26,7 +26,7 @@ export default function Plate({ name, price, description, img, alt, allergens })
                             ? null
                             : allergens.map(allergen => {
                                 const result = findAllergens(allergen);
-                                return <li><Image title={allergen} alt={result.alt} src={result.src} width={35} height={35} className={styles.allergen}/></li>
+                                return <li key={allergen}><Image title={allergen} alt={result.alt} src={result.src} width={35} height={35} className={styles.allergen}/></li>
                             })
                     }
                 </ul>
