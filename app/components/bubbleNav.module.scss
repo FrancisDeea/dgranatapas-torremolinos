@@ -1,19 +1,86 @@
+@import '../styles/variables';
+
 .bubble_btn {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
+    @include flexbox-row;
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
-    width: 50px;
-    height: 50px;
+    width: 100vw;
 
-    border-radius: 50%;
-    background-color: black;
-    border: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem;
+
+    background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    border-top: 2px solid black;
     cursor: pointer;
     z-index: 99;
 
+    transition: opacity 0.5s ease-in;
+
     .icon {
+        font-size: 2rem;
+        color: black;
+    }
+}
+
+.modal {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 25px 25px 0 0;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in;
+
+    nav {
+        height: 100%;
+        display: grid;
+        place-content: center;
+        padding: 3rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        list-style: none;
+
+        li {
+
+
+            .link {
+                color: rgb(255, 255, 255);
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .btn_close {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+
         font-size: 2.5rem;
-        color: white;
+        color: white !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .modal {
+        height: auto;
+
+        ul {
+            flex-direction: column;
+        }
     }
 }

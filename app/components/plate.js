@@ -14,7 +14,7 @@ export default function Plate({ name, price, description, img, alt, allergens })
                     src={img}
                     alt={alt}
                     fill
-                    sizes=""
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
             </div>
             <div className={styles.content_container}>
@@ -26,7 +26,7 @@ export default function Plate({ name, price, description, img, alt, allergens })
                             ? null
                             : allergens.map(allergen => {
                                 const result = findAllergens(allergen);
-                                return <li><Image title={allergen} src={result.src} width={35} height={35} className={styles.allergen}/></li>
+                                return <li><Image title={allergen} alt={result.alt} src={result.src} width={35} height={35} className={styles.allergen}/></li>
                             })
                     }
                 </ul>
