@@ -47,7 +47,7 @@
 }
 
 .about_seccion {
-    min-height: calc(100vh) !important;
+    min-height: calc(100vh - 50px) !important;
 
     .columns_container {
         max-width: 1100px;
@@ -96,6 +96,7 @@
 }
 
 .contact_seccion {
+    min-height: calc(100vh - 50px) !important;
     background: black;
 
     .info_container {

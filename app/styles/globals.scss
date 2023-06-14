@@ -22,9 +22,6 @@ html {
 }
 
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   color: ghostwhite;
@@ -54,7 +51,7 @@ main {
 
 seccion.page_container {
   grid-column: -1 / 1;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
 
   @include flexbox-column;
   row-gap: 50px;
