@@ -78,7 +78,7 @@ export const plates = {
             name: "Cazuela de papas gratinadas",
             price: "10",
             description: "Papas fritas con mayonesa, beicon y 3 quesos gratinados.",
-            img: "/assets/platos/cazuela-patatas-gratinadas-bacon.webp",
+            img: "/assets/platos/cazuela-papas-gratinadas-bacon.webp",
             alt: "cazuela de papas gratinadas con bacon",
             allergens: ["lacteo", "huevo"]
         },
@@ -116,7 +116,7 @@ export const plates = {
             name: "Tosta de Queso Cabra",
             price: "9.50",
             description: "Queso de cabra, cebolla caramelizada y miel de caña.",
-            img: "/assets/platos/tosta-queso-cabra-miel.webp",
+            img: "/assets/platos/tosta-queso-cabra-cebolla-caramelizada.webp",
             alt: "tosta de queso de cabra y cebolla caramelizada",
             allergens: ["gluten", "lacteo", "sesamo"]
         },
@@ -193,7 +193,7 @@ export const plates = {
             name: "Cazón en adobo frito",
             price: "9.50",
             description: null,
-            img: "/assets/platos/cazon-adobo-frito.webp",
+            img: "/assets/platos/cazon-frito-adobo.webp",
             alt: "cazon frito en adobo",
             allergens: ["gluten", "pescado", "sulfito"]
         },
@@ -231,7 +231,7 @@ export const plates = {
             name: "Costillas de cerdo BBQ",
             price: "15",
             description: "Cocinadas a baja temperatura con salsa bbq y papas.",
-            img: "/assets/platos/costillas-cerdo-barbacoa.webp",
+            img: "/assets/platos/costilla-cerdo-bbq.webp",
             alt: "costillas de cerdo barbacoa",
             allergens: ["sesamo"]
         },
@@ -240,7 +240,7 @@ export const plates = {
             name: "Milhojas",
             price: "10",
             description: "Con queso de cabra, jamón serrano y confitura de mango.",
-            img: "/assets/platos/milhojas-queso-cabra-mango-jamon.webp",
+            img: "/assets/platos/milhojas-queso-cabra-mango.webp",
             alt: "milhojas de queso cabra, mango y jamon",
             allergens: ["gluten", "lacteo"]
         },
@@ -258,7 +258,7 @@ export const plates = {
             name: "Gofre de pollo Crunchy",
             price: "10.50",
             description: "Con queso americano cheddar, feta, mezclum y aove trufado.",
-            img: "/assets/platos/gofre de pollo crunchy.webp",
+            img: "/assets/platos/gofre-pollo-crunchy-queso-feta.webp",
             alt: "Gofre de pollo crujiente con queso feta y cheddar",
             allergens: ["gluten", "sesamo", "lacteo"]
         }
@@ -269,7 +269,7 @@ export const plates = {
             name: "Ternera y buey (200gr)",
             price: "10.50",
             description: "Queso de cabra, cebolla caramelizada, acompañada de papas.",
-            img: "/assets/platos/hamburguesa-ternera-buey.webp",
+            img: "/assets/platos/hamburguesa-buey-queso-cabra.webp",
             alt: "Hamburguesa de ternera y buey",
             allergens: ["gluten", "sesamo", "lacteo"]
         },
@@ -307,7 +307,7 @@ export const plates = {
             name: "Migas de Chocolate",
             price: "5.50",
             description: "Con twist de Baileys y chocolate blanco, y helado de vainilla.",
-            img: "/assets/platos/migas de chocolate con baileys.webp",
+            img: "/assets/platos/migas-chocolate.webp",
             alt: "Migas de chocolate con twist de baileys y helado de vainilla",
             allergens: ["gluten", "lacteo", "huevo", "cascara"]
         },
